@@ -193,7 +193,7 @@ h1, h2, h3, h4, h5, h6, p, a, li {
 }
 
 .botaoTopo {
-  padding: 0.5em 2em;
+  padding: 0.7em 2em;
   background: #5D095F;
   color: #fff;
   text-decoration: none;
@@ -260,8 +260,13 @@ h1, h2, h3, h4, h5, h6, p, a, li {
   color: #5D095F;
 }
 
+.texto-sobre h2 img {
+  margin-bottom: -7px;
+}
+
 .texto-sobre p {
   margin: 1em 0;
+  font-size: 1em;
   color:#424242;
 }
 
@@ -279,8 +284,8 @@ h1, h2, h3, h4, h5, h6, p, a, li {
   color:#424242;
 }
 
-.texto-sobre .btn {
-  padding: 0.5em 2em;
+.botaoBaixar {
+  padding: 0.7em 2em;
   background: #5D095F;
   color: #fff;
   text-decoration: none;
@@ -290,6 +295,10 @@ h1, h2, h3, h4, h5, h6, p, a, li {
   align-items: center;
   justify-content: center;
   margin-bottom: 50px;
+}
+
+.botaoBaixar img{
+  margin-left: 0.3em; 
 }
 
 .texto-sobre .btn img{
@@ -406,12 +415,20 @@ h1, h2, h3, h4, h5, h6, p, a, li {
   color: #424242;
 }
 
-.cads-projetos .btn {
+.botaoSite {
   padding: 0.5em 2em;
   background: #5D095F;
   color: #fff;
   text-decoration: none;
   border-radius: 20px;
+  margin-bottom: 1.5em;
+}
+
+.botaoGit {
+  padding: 0.5em 2em;
+  color: #5D095F;
+  border-radius: 20px;
+  text-decoration-color: #950097;
   margin-bottom: 1.5em;
 }
 
@@ -431,8 +448,8 @@ h1, h2, h3, h4, h5, h6, p, a, li {
   padding: 2em 0;
 }
 
-.todos-projetos .btn {
-  padding: 0.5em 2em;
+.botaoProjetos {
+  padding: 0.7em 2em;
   background: #5D095F;
   color: #fff;
   text-decoration: none;
@@ -441,6 +458,10 @@ h1, h2, h3, h4, h5, h6, p, a, li {
   margin-top: 1em; 
   align-items: center;
   justify-content: center;
+}
+
+.botaoProjetos img{
+  margin-left: 0.3em; 
 }
 
 .todos-projetos .btn img{
@@ -496,7 +517,7 @@ h1, h2, h3, h4, h5, h6, p, a, li {
 .btn-contato {
   display: inline-flex;
   transition: background-color 0.3s ease;
-  padding: 0.5em 2em;
+  padding: 0.7em 2em;
   background: #5D095F;
   color: #fff;
   text-decoration: none;
@@ -506,7 +527,7 @@ h1, h2, h3, h4, h5, h6, p, a, li {
 }
 
 .btn-contato img{
-  margin-right: 0.3em; 
+  margin-left: 0.3em; 
 }
 
 .btn-contato:hover {
@@ -536,10 +557,23 @@ footer {
   .topo .container {
     display: block;
     text-align: center;
-}
+  }
+
+  .texto-topo h1 {
+    font-size: 2.3em;
+  }
+
+  .texto-topo p {
+    font-size: 1.2em;
+  }
+
 
   .sobre {
     flex-direction: column;
+  }
+
+  .texto-sobre p {
+    font-size: 1.2em;
   }
 
   .img-sobre {
@@ -547,6 +581,17 @@ footer {
     margin-bottom: 2em;
   }
 
+  .linguagens p {
+    font-size: 1.2em;
+  }
+
+  .ptexto {
+    font-size: 1.2em;
+  }
+
+  .cads-projetos p{
+    font-size: 1.1em;
+  }
 
   .conteudo-sobre {
     flex-direction: column-reverse;
@@ -565,6 +610,15 @@ footer {
   .info-contatos {
     margin-right: 0;
     margin-bottom: 2em;
+  }
+
+
+  .info-contatos h2 {
+    font-size: 2em;
+  }  
+
+  .info-contatos p {
+    font-size: 1.2em;
   }
 
   .icones-contato {
@@ -594,6 +648,31 @@ footer {
   .div-cards {
     flex-direction: column;
   }
+
+  .botaoTopo {
+    padding: 1.1em 1.3em; 
+    font-size: 1em;
+  }
+
+  .botaoBaixar {
+    padding: 1.1em 1.3em; 
+    font-size: 1em;
+  }
+
+  .botaoProjetos {
+    padding: 1.1em 1.3em; 
+    font-size: 1em;
+  }
+
+  .btn-contato {
+    padding: 1.1em 1.3em; 
+    font-size: 1em;
+  }
+
+  /*.contatos{
+    text-align: center;
+  }*/  
+
 }
 
 
